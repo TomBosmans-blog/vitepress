@@ -4,7 +4,9 @@
   "description": "my personal blog",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "blog:dev": "vitepress dev blog",
+    "blog:build": "vitepress build blog",
+    "blog:serve": "vitepress serve blog"
   },
   "repository": {
     "type": "git",
@@ -18,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/TomBosmans-blog/vitepress/issues"
   },
-  "homepage": "https://github.com/TomBosmans-blog/vitepress#readme"
+  "homepage": "https://github.com/TomBosmans-blog/vitepress#readme",
+  "devDependencies": {
+    "vitepress": "^0.22.3"
+  }
 }
