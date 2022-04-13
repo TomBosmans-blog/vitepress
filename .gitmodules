@@ -1,0 +1,3 @@
+[submodule "blog/articles"]
+	path = blog/articles
+	url = git@github.com:TomBosmans-blog/articles.git
