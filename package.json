@@ -4,9 +4,11 @@
   "description": "my personal blog",
   "main": "index.js",
   "scripts": {
-    "blog:dev": "vitepress dev blog",
-    "blog:build": "vitepress build blog",
-    "blog:serve": "vitepress serve blog"
+    "blog:dev": "sh scripts/dev.sh",
+    "blog:build": "sh scripts/build.sh",
+    "blog:serve": "vitepress serve blog",
+    "blog:generate": "node scripts/generate.js",
+    "blog:deploy": "sh scripts/deploy.sh"
   },
   "repository": {
     "type": "git",

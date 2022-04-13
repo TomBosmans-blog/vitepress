@@ -3,12 +3,12 @@ module.exports = {
   description: "My personal blog.",
   lastUpdated: true,
   themeConfig: {
-    repo: "TomBosmans/TomBosmans",
+    repo: "TomBosmans-blog/vitepress",
     base: "/",
     logo: "/logo.jpg",
     docsDir: "blog",
     docsBranch: "master",
-    editLinks: true,
+    editLinks: false,
     editLinkText: "Edit this page on Github",
     lastUpdated: "Last Updated",
     nav: [
